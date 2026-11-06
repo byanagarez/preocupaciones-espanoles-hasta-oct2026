@@ -1,0 +1,41 @@
+{
+  "meses": [
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-09",
+    "2026-10"
+  ],
+  "estudios": [
+    "3540",
+    "3544",
+    "3546",
+    "3557",
+    "3562",
+    "3567",
+    "3571",
+    "3577",
+    "3582"
+  ],
+  "filas_total": 91773,
+  "filas_edad": 8484,
+  "filas_detalle": 362199,
+  "duplicados_identicos_ignorados": [],
+  "meses_sin_archivo_por_ano": {
+    "2026": [
+      "2026-08"
+    ]
+  },
+  "advertencias": [
+    "Los absolutos publicados están redondeados: no son microdatos ni bases brutas garantizadas.",
+    "Los porcentajes ya están ponderados. No aplicar otra vez la tabla de ponderaciones.",
+    "Una categoría ausente no equivale a cero. Revisar cobertura_categorias.csv.",
+    "Las diferencias entre meses son descriptivas: no se calculan significaciones ni intervalos de confianza.",
+    "No se promedian meses ni se combinan tramos de edad automáticamente.",
+    "Los distintos cruces son marginales independientes: no cruzar Edad con Sexo usando estas tablas."
+  ]
+}

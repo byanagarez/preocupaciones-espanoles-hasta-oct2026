@@ -1,0 +1,33 @@
+# Lista cerrada: solo se publican los archivos necesarios para el análisis.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/preprocesamiento.py
+!/comparar.py
+!/Preocupaciones_espanoles.ipynb
+!/datos_limpios/
+!/figuras/
+
+# Tabla principal y documentos de control y procedencia.
+/datos_limpios/*
+!/datos_limpios/preocupaciones_total.csv
+!/datos_limpios/control_calidad.json
+!/datos_limpios/cobertura_categorias.csv
+!/datos_limpios/notas_fuente.json
+!/datos_limpios/fuentes.csv
+
+# Cinco figuras finales del artículo.
+/figuras/*
+!/figuras/01-ranking.webp
+!/figuras/02-evolucion.webp
+!/figuras/03-pais-personal.webp
+!/figuras/04-edad.webp
+!/figuras/05-nube.png
+
+# Archivos temporales dentro de cualquier carpeta.
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.pyc
+Thumbs.db
+.DS_Store
